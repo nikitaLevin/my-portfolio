@@ -8,28 +8,28 @@ const projects = [
     title: "Mr. Donald's Burger Shop",
     description:
       "Food ordering React app with cart, toppings customization and real-time price calculation",
-    getImageSrc: () => require("../images/photo1.jpg"),
+    getImageSrc: () => require("../images/MrDonalds.png"),
     url: "https://github.com/nikitaLevin/mr-donalds-burger-shop",
   },
   {
     title: "3Glo Landing",
     description:
       "Landing page for a 3D modeling studio with countdown timer, portfolio carousel and cost calculator",
-    getImageSrc: () => require("../images/photo2.jpg"),
+    getImageSrc: () => require("../images/3DGlo.png"),
     url: "https://github.com/nikitaLevin/3dglo-landing",
   },
   {
     title: "Form Validator",
     description:
-      "Reusable JavaScript validator plugin with email and phone validation and custom regex patterns",
-    getImageSrc: () => require("../images/photo3.jpg"),
+      "Reusable JavaScript validator plugin — email, phone, password validation with custom patterns",
+    getImageSrc: () => require("../images/validation.jpg"),
     url: "https://github.com/nikitaLevin/form-validator",
   },
   {
     title: "MCP Server Creation Tool",
     description:
       "Python tool that automatically scaffolds new MCP servers with virtual environment and dependencies",
-    getImageSrc: () => require("../images/photo4.jpg"),
+    getImageSrc: () => require("../images/mcp.jpg"),
     url: "https://github.com/nikitaLevin/mcp-server-creation-tool",
   },
 ];
