@@ -5,28 +5,32 @@ import Card from "./Card";
 
 const projects = [
   {
-    title: "React Space",
+    title: "Mr. Donald's Burger Shop",
     description:
-      "Handy tool belt to create amazing AR components in a React app, with redux integration via middleware️",
+      "Food ordering React app with cart, toppings customization and real-time price calculation",
     getImageSrc: () => require("../images/photo1.jpg"),
+    url: "https://github.com/nikitaLevin/mr-donalds-burger-shop",
   },
   {
-    title: "React Infinite Scroll",
+    title: "3Glo Landing",
     description:
-      "A scrollable bottom sheet with virtualisation support, native animations at 60 FPS and fully implemented in JS land 🔥️",
+      "Landing page for a 3D modeling studio with countdown timer, portfolio carousel and cost calculator",
     getImageSrc: () => require("../images/photo2.jpg"),
+    url: "https://github.com/nikitaLevin/3dglo-landing",
   },
   {
-    title: "Photo Gallery",
+    title: "Form Validator",
     description:
-      "A One-stop shop for photographers to share and monetize their photos, allowing them to have a second source of income",
+      "Reusable JavaScript validator plugin with email and phone validation and custom regex patterns",
     getImageSrc: () => require("../images/photo3.jpg"),
+    url: "https://github.com/nikitaLevin/form-validator",
   },
   {
-    title: "Event planner",
+    title: "MCP Server Creation Tool",
     description:
-      "A mobile application for leisure seekers to discover unique events and activities in their city with a few taps",
+      "Python tool that automatically scaffolds new MCP servers with virtual environment and dependencies",
     getImageSrc: () => require("../images/photo4.jpg"),
+    url: "https://github.com/nikitaLevin/mcp-server-creation-tool",
   },
 ];
 
@@ -53,6 +57,7 @@ const ProjectsSection = () => {
             title={project.title}
             description={project.description}
             imageSrc={project.getImageSrc()}
+            url={project.url}
           />
         ))}
       </Box>
