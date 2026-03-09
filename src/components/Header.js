@@ -13,8 +13,6 @@ const socials = [
   { icon: faEnvelope, url: "mailto: levin.nikitaa@gmail.com" },
   { icon: faGithub, url: "https://github.com/nikitaLevin" },
   { icon: faLinkedin, url: "https://linkedin.com/in/hi-tech-nikita-levin" },
-  { icon: faMedium, url: "https://medium.com" },
-  { icon: faStackOverflow, url: "https://stackoverflow.com" },
 ];
 
 const Header = () => {
