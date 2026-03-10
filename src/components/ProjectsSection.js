@@ -22,14 +22,14 @@ const projects = [
     title: "Form Validator",
     description:
       "Reusable JavaScript validator plugin — email, phone, password validation with custom patterns",
-    getImageSrc: () => require("../images/validation.jpg"),
+    getImageSrc: () => require("../images/validation.png"),
     url: "https://github.com/nikitaLevin/form-validator",
   },
   {
     title: "MCP Server Creation Tool",
     description:
       "Python tool that automatically scaffolds new MCP servers with virtual environment and dependencies",
-    getImageSrc: () => require("../images/mcp.jpg"),
+    getImageSrc: () => require("../images/mcp.png"),
     url: "https://github.com/nikitaLevin/mcp-server-creation-tool",
   },
 ];
