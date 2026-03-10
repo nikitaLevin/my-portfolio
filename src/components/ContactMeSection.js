@@ -96,7 +96,7 @@ const LandingSection = () => {
                 <FormErrorMessage>{formik.errors.comment}</FormErrorMessage>
               </FormControl>
 
-              <Button type="submit" colorScheme="purple" width="full" isLoading={isLoading}>
+              <Button type="submit" backgroundColor="#18181b" color="white" _hover={{ backgroundColor: "#2d2d30" }} width="full" isLoading={isLoading}>
                 Submit
               </Button>
             </VStack>
