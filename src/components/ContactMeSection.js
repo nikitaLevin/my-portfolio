@@ -25,11 +25,11 @@ const LandingSection = () => {
     initialValues: {
       firstName: "",
       email: "",
-      type: "hireMe",
+      type: "fullTime",
       comment: "",
     },
     onSubmit: (values) => {
-      submit("/api/contact", values);
+      submit("https://formspree.io/f/mnjgpppn", values);
     },
     validationSchema: Yup.object({
       firstName: Yup.string().required("Name is required"),
@@ -49,7 +49,7 @@ const LandingSection = () => {
   }, [response]);
 
   return (
-    <FullScreenSection isDarkBackground backgroundColor="#512DA8" py={16} spacing={8}>
+    <FullScreenSection isDarkBackground backgroundColor="#2A4365" py={16} spacing={8}>
       <VStack w="1024px" p={32} alignItems="flex-start">
         <Heading as="h1" id="contactme-section">Contact me</Heading>
         <Box p={6} rounded="md" w="100%">
@@ -80,8 +80,8 @@ const LandingSection = () => {
                   id="type"
                   {...formik.getFieldProps("type")}
                 >
-                  <option value="hireMe">Freelance project proposal</option>
-                  <option value="openSource">Open source consultancy session</option>
+                  <option value="fullTime">Full-time employment</option>
+                  <option value="projectBased">Project-based work</option>
                   <option value="other">Other</option>
                 </Select>
               </FormControl>
@@ -96,7 +96,7 @@ const LandingSection = () => {
                 <FormErrorMessage>{formik.errors.comment}</FormErrorMessage>
               </FormControl>
 
-              <Button type="submit" colorScheme="purple" width="full" isLoading={isLoading}>
+              <Button type="submit" backgroundColor="#18181b" color="white" _hover={{ backgroundColor: "#2d2d30" }} width="full" isLoading={isLoading}>
                 Submit
               </Button>
             </VStack>
