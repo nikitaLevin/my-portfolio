@@ -1,21 +1,21 @@
 {
   "files": {
     "main.css": "/my-portfolio/static/css/main.df6a7eab.css",
-    "main.js": "/my-portfolio/static/js/main.2b2932e1.js",
+    "main.js": "/my-portfolio/static/js/main.7de06d11.js",
     "static/js/111.944ce873.chunk.js": "/my-portfolio/static/js/111.944ce873.chunk.js",
     "static/media/MrDonalds.png": "/my-portfolio/static/media/MrDonalds.9a1441057219f098bc1d.png",
     "static/media/3DGlo.png": "/my-portfolio/static/media/3DGlo.48259e0a4776ac5c7d3c.png",
     "static/media/mcp.png": "/my-portfolio/static/media/mcp.a3fb481324da234f5b32.png",
     "static/media/validation.png": "/my-portfolio/static/media/validation.c256f32abab00632040a.png",
-    "static/media/job-tracker.png": "/my-portfolio/static/media/job-tracker.2882ae741ede832000dc.png",
+    "static/media/job-tracker.png": "/my-portfolio/static/media/job-tracker.021c47626395dee5cf14.png",
     "static/media/NikitaLevin.jpg": "/my-portfolio/static/media/NikitaLevin.75c72eed21583068e292.jpg",
     "index.html": "/my-portfolio/index.html",
     "main.df6a7eab.css.map": "/my-portfolio/static/css/main.df6a7eab.css.map",
-    "main.2b2932e1.js.map": "/my-portfolio/static/js/main.2b2932e1.js.map",
+    "main.7de06d11.js.map": "/my-portfolio/static/js/main.7de06d11.js.map",
     "111.944ce873.chunk.js.map": "/my-portfolio/static/js/111.944ce873.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.df6a7eab.css",
-    "static/js/main.2b2932e1.js"
+    "static/js/main.7de06d11.js"
   ]
 }
