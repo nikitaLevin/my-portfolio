@@ -4,6 +4,14 @@ import { Box, Heading } from "@chakra-ui/react";
 import Card from "./Card";
 
 const projects = [
+
+  {
+    title: "Job Tracker",
+    description:
+      "Chrome extension for tracking job applications — save jobs from LinkedIn, manage statuses, add notes and track interview rate",
+    getImageSrc: () => require("../images/job-tracker.png"),
+    url: "https://github.com/nikitaLevin/job-tracker",
+  },
   {
     title: "Mr. Donald's Burger Shop",
     description:
